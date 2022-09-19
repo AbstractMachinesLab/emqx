@@ -1,0 +1,8 @@
+[[erlang_library]]
+name = "lib"
+deps = ["./semver:verl"]
+
+[[erlang_script]]
+name = "lift"
+main = "warp_lifter.erl"
+deps = [":lib", "https://pkgs.warp.build/toolchains/rebar3"]
