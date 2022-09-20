@@ -1,0 +1,44 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqtt",
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx_rule_engine/src"
+]
+name = "emqx_rule_engine_SUITE"
+test = "emqx_rule_engine_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_rule_engine_api_SUITE"
+test = "emqx_rule_engine_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_rule_events_SUITE"
+test = "emqx_rule_events_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx/src"
+]
+name = "emqx_rule_funcs_SUITE"
+test = "emqx_rule_funcs_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_rule_maps_SUITE"
+test = "emqx_rule_maps_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "prop_rule_maps"
+test = "prop_rule_maps.erl"
+
+

@@ -1,0 +1,9 @@
+[[erlang_library]]
+deps = [
+  "//apps/emqx/_build/default/lib/esockd/src",
+  "//apps/emqx/src",
+  "//apps/emqx_gateway/src"
+]
+name = "bhvrs"
+
+

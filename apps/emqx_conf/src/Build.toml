@@ -1,0 +1,11 @@
+[[erlang_library]]
+deps = [
+  "//apps/emqx/_build/default/lib/ekka/src",
+  "//apps/emqx/_build/default/lib/hocon/src",
+  "//apps/emqx/src",
+  "//apps/emqx_conf/src/proto",
+  "//apps/emqx_dashboard/src"
+]
+name = "src"
+
+

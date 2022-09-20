@@ -1,0 +1,9 @@
+[[erlang_library]]
+deps = [
+  "//3rdparty/rebar3/default/lib/prometheus_text_format",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx_conf/src"
+]
+name = "src"
+
+

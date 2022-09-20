@@ -1,0 +1,18 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_bridge_SUITE"
+test = "emqx_bridge_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx_bridge/src"
+]
+name = "emqx_bridge_api_SUITE"
+test = "emqx_bridge_api_SUITE.erl"
+
+

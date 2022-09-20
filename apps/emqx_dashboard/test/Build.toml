@@ -1,0 +1,99 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx/src"
+]
+name = "emqx_dashboard_SUITE"
+test = "emqx_dashboard_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx/_build/default/lib/mria/src"
+]
+name = "emqx_dashboard_admin_SUITE"
+test = "emqx_dashboard_admin_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx/src"
+]
+name = "emqx_dashboard_api_test_helpers"
+test = "emqx_dashboard_api_test_helpers.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx/_build/default/lib/mria/src"
+]
+name = "emqx_dashboard_bad_api_SUITE"
+test = "emqx_dashboard_bad_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx_dashboard/src"
+]
+name = "emqx_dashboard_error_code_SUITE"
+test = "emqx_dashboard_error_code_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx/_build/default/lib/mria/src"
+]
+name = "emqx_dashboard_monitor_SUITE"
+test = "emqx_dashboard_monitor_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx_dashboard/src"
+]
+name = "emqx_swagger_parameter_SUITE"
+test = "emqx_swagger_parameter_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_swagger_remote_schema"
+test = "emqx_swagger_remote_schema.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx_dashboard/src"
+]
+name = "emqx_swagger_requestBody_SUITE"
+test = "emqx_swagger_requestBody_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx_dashboard/src"
+]
+name = "emqx_swagger_response_SUITE"
+test = "emqx_swagger_response_SUITE.erl"
+
+

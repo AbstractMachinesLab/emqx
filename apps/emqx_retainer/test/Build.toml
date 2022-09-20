@@ -1,0 +1,44 @@
+[[erlang_test]]
+deps = [
+  "//apps/emqx_retainer/src"
+]
+name = "emqx_retainer_SUITE"
+test = "emqx_retainer_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//apps/emqx/_build/default/lib/ekka/src",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx/src"
+]
+name = "emqx_retainer_api_SUITE"
+test = "emqx_retainer_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_retainer_SUITE"
+]
+name = "emqx_retainer_cli_SUITE"
+test = "emqx_retainer_cli_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_retainer_index_SUITE"
+test = "emqx_retainer_index_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqtt",
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_retainer_SUITE"
+]
+name = "emqx_retainer_mqtt_v5_SUITE"
+test = "emqx_retainer_mqtt_v5_SUITE.erl"
+
+

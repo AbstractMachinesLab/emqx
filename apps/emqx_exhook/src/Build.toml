@@ -1,0 +1,8 @@
+[[erlang_library]]
+deps = [
+  "//3rdparty/rebar3/default/lib/grpc_client_sup",
+  "//apps/emqx/src"
+]
+name = "src"
+
+

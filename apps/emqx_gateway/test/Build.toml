@@ -1,0 +1,225 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//3rdparty/rebar3/default/lib/er_coap_channel",
+  "//3rdparty/rebar3/default/lib/er_coap_message",
+  "//3rdparty/rebar3/default/lib/er_coap_udp_socket",
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_coap_SUITE"
+test = "emqx_coap_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_http_lib",
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_coap_api_SUITE"
+test = "emqx_coap_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_exproto_echo_svr",
+  "//3rdparty/rebar3/default/lib/meck",
+  "//apps/emqx/src"
+]
+name = "emqx_exproto_SUITE"
+test = "emqx_exproto_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/grpc_client_sup"
+]
+name = "emqx_exproto_echo_svr"
+test = "emqx_exproto_echo_svr.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx/src"
+]
+name = "emqx_gateway_SUITE"
+test = "emqx_gateway_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_gateway_api_SUITE"
+test = "emqx_gateway_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_gateway_auth_ct"
+test = "emqx_gateway_auth_ct.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_gateway_auth_ct",
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//apps/emqx/src"
+]
+name = "emqx_gateway_authn_SUITE"
+test = "emqx_gateway_authn_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_gateway_auth_ct",
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//3rdparty/rebar3/default/lib/meck",
+  "//apps/emqx/src",
+  "//apps/emqx_gateway/src"
+]
+name = "emqx_gateway_authz_SUITE"
+test = "emqx_gateway_authz_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_gateway_cli_SUITE"
+test = "emqx_gateway_cli_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/meck",
+  "//apps/emqx/src"
+]
+name = "emqx_gateway_cm_SUITE"
+test = "emqx_gateway_cm_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx/src"
+]
+name = "emqx_gateway_cm_registry_SUITE"
+test = "emqx_gateway_cm_registry_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx/src"
+]
+name = "emqx_gateway_conf_SUITE"
+test = "emqx_gateway_conf_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_gateway_ctx_SUITE"
+test = "emqx_gateway_ctx_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_gateway_metrics_SUITE"
+test = "emqx_gateway_metrics_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_gateway_registry_SUITE"
+test = "emqx_gateway_registry_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_gateway_test_utils"
+test = "emqx_gateway_test_utils.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_http_lib",
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//3rdparty/rebar3/default/lib/test_mqtt_broker",
+  "//apps/emqx_gateway/src/coap"
+]
+name = "emqx_lwm2m_SUITE"
+test = "emqx_lwm2m_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_lwm2m_api_SUITE"
+test = "emqx_lwm2m_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx_gateway/src/mqttsn"
+]
+name = "emqx_sn_frame_SUITE"
+test = "emqx_sn_frame_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//apps/emqx_gateway/src"
+]
+name = "emqx_sn_protocol_SUITE"
+test = "emqx_sn_protocol_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx/_build/default/lib/mria/src"
+]
+name = "emqx_sn_registry_SUITE"
+test = "emqx_sn_registry_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//apps/emqx_gateway/src/stomp"
+]
+name = "emqx_stomp_SUITE"
+test = "emqx_stomp_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_stomp_heartbeat_SUITE"
+test = "emqx_stomp_heartbeat_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_tlv_SUITE"
+test = "emqx_tlv_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx/src"
+]
+name = "test_mqtt_broker"
+test = "test_mqtt_broker.erl"
+
+

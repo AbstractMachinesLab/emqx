@@ -1,0 +1,9 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_psk_SUITE"
+test = "emqx_psk_SUITE.erl"
+
+

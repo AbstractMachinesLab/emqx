@@ -1,0 +1,14 @@
+[[erlang_test]]
+deps = []
+name = "emqx_sn_proper_types"
+test = "emqx_sn_proper_types.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx_gateway/src/mqttsn"
+]
+name = "prop_emqx_sn_frame"
+test = "prop_emqx_sn_frame.erl"
+
+

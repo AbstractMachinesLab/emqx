@@ -1,0 +1,10 @@
+[[erlang_library]]
+deps = [
+  "//3rdparty/rebar3/default/lib/estatsd",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx_conf/src",
+  "//apps/emqx_statsd/src/proto"
+]
+name = "src"
+
+

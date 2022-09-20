@@ -1,0 +1,25 @@
+[[erlang_library]]
+deps = [
+  "//3rdparty/rebar3/default/lib/proper_types",
+  "//3rdparty/rebar3/default/lib/quicer",
+  "//apps/emqx/_build/default/lib/bcrypt/src",
+  "//apps/emqx/_build/default/lib/cowboy/src",
+  "//apps/emqx/_build/default/lib/ekka/src",
+  "//apps/emqx/_build/default/lib/esockd/src",
+  "//apps/emqx/_build/default/lib/gen_rpc/src",
+  "//apps/emqx/_build/default/lib/gproc/src",
+  "//apps/emqx/_build/default/lib/hocon/src",
+  "//apps/emqx/_build/default/lib/jiffy/src",
+  "//apps/emqx/_build/default/lib/lc/src",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx/_build/default/lib/pbkdf2/src",
+  "//apps/emqx/_build/default/lib/ranch/src",
+  "//apps/emqx/_build/default/lib/typerefl/src",
+  "//apps/emqx/_build/default/plugins/jsx/src",
+  "//apps/emqx/src/emqx_trace",
+  "//apps/emqx/src/persistent_session",
+  "//apps/emqx/src/proto"
+]
+name = "src"
+
+

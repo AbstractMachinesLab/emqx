@@ -1,0 +1,74 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx/src"
+]
+name = "emqx_license_SUITE"
+test = "emqx_license_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx/src"
+]
+name = "emqx_license_checker_SUITE"
+test = "emqx_license_checker_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx/src"
+]
+name = "emqx_license_cli_SUITE"
+test = "emqx_license_cli_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_license_test_lib",
+  "//apps/emqx/src",
+  "//lib-ee/emqx_license/src"
+]
+name = "emqx_license_http_api_SUITE"
+test = "emqx_license_http_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx/src"
+]
+name = "emqx_license_installer_SUITE"
+test = "emqx_license_installer_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_license_test_lib",
+  "//apps/emqx/src"
+]
+name = "emqx_license_parser_SUITE"
+test = "emqx_license_parser_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx/src"
+]
+name = "emqx_license_resources_SUITE"
+test = "emqx_license_resources_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//lib-ee/emqx_license/src"
+]
+name = "emqx_license_test_lib"
+test = "emqx_license_test_lib.erl"
+
+

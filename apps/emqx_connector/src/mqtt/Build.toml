@@ -1,0 +1,10 @@
+[[erlang_library]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqtt",
+  "//apps/emqx/_build/default/lib/hocon/src",
+  "//apps/emqx/src",
+  "//apps/emqx_plugin_libs/src"
+]
+name = "mqtt"
+
+

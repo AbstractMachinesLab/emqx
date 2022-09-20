@@ -1,0 +1,10 @@
+[[erlang_library]]
+deps = [
+  "//apps/emqx/_build/default/lib/gproc/src",
+  "//apps/emqx/src",
+  "//apps/emqx_conf/src",
+  "//apps/emqx_resource/src"
+]
+name = "src"
+
+

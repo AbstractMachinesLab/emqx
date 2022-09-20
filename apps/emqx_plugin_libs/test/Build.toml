@@ -1,0 +1,12 @@
+[[erlang_test]]
+deps = []
+name = "emqx_placeholder_SUITE"
+test = "emqx_placeholder_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_plugin_libs_rule_SUITE"
+test = "emqx_plugin_libs_rule_SUITE.erl"
+
+

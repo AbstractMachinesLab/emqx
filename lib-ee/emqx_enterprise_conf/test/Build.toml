@@ -1,0 +1,12 @@
+[[erlang_test]]
+deps = []
+name = "emqx_enterprise_conf_schema_SUITE"
+test = "emqx_enterprise_conf_schema_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_enterprise_conf_schema_tests"
+test = "emqx_enterprise_conf_schema_tests.erl"
+
+

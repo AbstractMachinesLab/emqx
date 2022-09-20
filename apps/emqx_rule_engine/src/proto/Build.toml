@@ -1,0 +1,7 @@
+[[erlang_library]]
+deps = [
+  "//apps/emqx_conf/src"
+]
+name = "proto"
+
+

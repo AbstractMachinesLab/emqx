@@ -1,0 +1,18 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx/src",
+  "//apps/emqx_plugins/src"
+]
+name = "emqx_plugins_SUITE"
+test = "emqx_plugins_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_plugins_tests"
+test = "emqx_plugins_tests.erl"
+
+

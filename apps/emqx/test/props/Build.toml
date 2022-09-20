@@ -1,0 +1,46 @@
+[[erlang_test]]
+deps = []
+name = "prop_emqx_base62"
+test = "prop_emqx_base62.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "prop_emqx_frame"
+test = "prop_emqx_frame.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_proper_types"
+]
+name = "prop_emqx_json"
+test = "prop_emqx_json.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "prop_emqx_psk"
+test = "prop_emqx_psk.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "prop_emqx_reason_codes"
+test = "prop_emqx_reason_codes.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "prop_emqx_rpc"
+test = "prop_emqx_rpc.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "prop_emqx_sys"
+test = "prop_emqx_sys.erl"
+
+

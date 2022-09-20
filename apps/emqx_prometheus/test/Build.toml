@@ -1,0 +1,22 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/meck",
+  "//apps/emqx/_build/default/lib/ekka/src",
+  "//apps/emqx/_build/default/lib/mria/src"
+]
+name = "emqx_prometheus_SUITE"
+test = "emqx_prometheus_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//3rdparty/rebar3/default/lib/meck",
+  "//apps/emqx/_build/default/lib/ekka/src",
+  "//apps/emqx/_build/default/lib/mria/src"
+]
+name = "emqx_prometheus_api_SUITE"
+test = "emqx_prometheus_api_SUITE.erl"
+
+

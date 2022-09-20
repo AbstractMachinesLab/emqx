@@ -1,0 +1,16 @@
+[[erlang_library]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_http_lib",
+  "//apps/emqx/_build/default/lib/esockd/src",
+  "//apps/emqx/_build/default/lib/hocon/src",
+  "//apps/emqx/_build/default/plugins/jsx/src",
+  "//apps/emqx/src",
+  "//apps/emqx_authz/src/proto",
+  "//apps/emqx_conf/src",
+  "//apps/emqx_management/src",
+  "//apps/emqx_plugin_libs/src",
+  "//apps/emqx_resource/src"
+]
+name = "src"
+
+

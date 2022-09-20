@@ -1,0 +1,8 @@
+[[erlang_library]]
+deps = [
+  "//apps/emqx/src",
+  "//apps/emqx_resource/src/proto"
+]
+name = "src"
+
+

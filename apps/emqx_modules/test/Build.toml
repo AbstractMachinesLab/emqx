@@ -1,0 +1,92 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_delayed_SUITE"
+test = "emqx_delayed_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx/src"
+]
+name = "emqx_delayed_api_SUITE"
+test = "emqx_delayed_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_modules_conf_SUITE"
+test = "emqx_modules_conf_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_observer_cli_tests"
+test = "emqx_observer_cli_tests.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_rewrite_SUITE"
+test = "emqx_rewrite_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers"
+]
+name = "emqx_rewrite_api_SUITE"
+test = "emqx_rewrite_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/meck",
+  "//apps/emqx/src",
+  "//apps/emqx_authz/src"
+]
+name = "emqx_telemetry_SUITE"
+test = "emqx_telemetry_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_telemetry_api_SUITE"
+test = "emqx_telemetry_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx/src",
+  "//apps/emqx_modules/src"
+]
+name = "emqx_topic_metrics_SUITE"
+test = "emqx_topic_metrics_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx_modules/src"
+]
+name = "emqx_topic_metrics_api_SUITE"
+test = "emqx_topic_metrics_api_SUITE.erl"
+
+

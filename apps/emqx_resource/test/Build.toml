@@ -1,0 +1,14 @@
+[[erlang_test]]
+deps = []
+name = "emqx_resource_SUITE"
+test = "emqx_resource_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx_resource/src"
+]
+name = "emqx_test_resource"
+test = "emqx_test_resource.erl"
+
+

@@ -1,0 +1,139 @@
+[[erlang_test]]
+deps = []
+name = "emqx_authn_SUITE"
+test = "emqx_authn_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers"
+]
+name = "emqx_authn_api_SUITE"
+test = "emqx_authn_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_authn_enable_flag_SUITE"
+test = "emqx_authn_enable_flag_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_http_lib"
+]
+name = "emqx_authn_http_SUITE"
+test = "emqx_authn_http_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authn_http_test_server"
+test = "emqx_authn_http_test_server.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_authn_https_SUITE"
+test = "emqx_authn_https_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_authn_jwt_SUITE"
+test = "emqx_authn_jwt_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx/_build/default/lib/mria/src"
+]
+name = "emqx_authn_mnesia_SUITE"
+test = "emqx_authn_mnesia_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authn_mongo_SUITE"
+test = "emqx_authn_mongo_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authn_mongo_tls_SUITE"
+test = "emqx_authn_mongo_tls_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx/src"
+]
+name = "emqx_authn_mqtt_test_client"
+test = "emqx_authn_mqtt_test_client.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authn_mysql_SUITE"
+test = "emqx_authn_mysql_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authn_mysql_tls_SUITE"
+test = "emqx_authn_mysql_tls_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authn_password_hashing_SUITE"
+test = "emqx_authn_password_hashing_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authn_pgsql_SUITE"
+test = "emqx_authn_pgsql_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authn_pgsql_tls_SUITE"
+test = "emqx_authn_pgsql_tls_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authn_redis_SUITE"
+test = "emqx_authn_redis_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authn_redis_tls_SUITE"
+test = "emqx_authn_redis_tls_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx/src"
+]
+name = "emqx_authn_test_lib"
+test = "emqx_authn_test_lib.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_enhanced_authn_scram_mnesia_SUITE"
+test = "emqx_enhanced_authn_scram_mnesia_SUITE.erl"
+
+

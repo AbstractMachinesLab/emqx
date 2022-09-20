@@ -1,0 +1,10 @@
+[[erlang_library]]
+deps = [
+  "//3rdparty/rebar3/default/lib/system_monitor",
+  "//apps/emqx/_build/default/lib/ekka/src",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx/src"
+]
+name = "src"
+
+

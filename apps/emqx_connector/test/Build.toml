@@ -1,0 +1,66 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_connector_SUITE"
+test = "emqx_connector_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx_bridge/src",
+  "//apps/emqx_connector/src",
+  "//apps/emqx_rule_engine/src"
+]
+name = "emqx_connector_api_SUITE"
+test = "emqx_connector_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_connector_mongo_SUITE"
+test = "emqx_connector_mongo_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_connector_mqtt_tests"
+test = "emqx_connector_mqtt_tests.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_connector_mqtt_worker_tests"
+test = "emqx_connector_mqtt_worker_tests.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_connector_mysql_SUITE"
+test = "emqx_connector_mysql_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_connector_pgsql_SUITE"
+test = "emqx_connector_pgsql_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_connector_redis_SUITE"
+test = "emqx_connector_redis_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_connector_test_helpers"
+test = "emqx_connector_test_helpers.erl"
+
+

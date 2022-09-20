@@ -1,0 +1,13 @@
+[[erlang_library]]
+deps = [
+  "//apps/emqx/_build/default/lib/hocon/src",
+  "//apps/emqx/src",
+  "//apps/emqx_bridge/src/proto",
+  "//apps/emqx_conf/src",
+  "//apps/emqx_connector/src",
+  "//apps/emqx_dashboard/src",
+  "//apps/emqx_resource/src"
+]
+name = "src"
+
+

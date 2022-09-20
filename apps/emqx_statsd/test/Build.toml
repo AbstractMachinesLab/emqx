@@ -1,0 +1,8 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_statsd_SUITE"
+test = "emqx_statsd_SUITE.erl"
+
+

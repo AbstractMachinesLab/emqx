@@ -1,0 +1,35 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqtt",
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_exhook_SUITE"
+test = "emqx_exhook_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx/src"
+]
+name = "emqx_exhook_api_SUITE"
+test = "emqx_exhook_api_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/grpc"
+]
+name = "emqx_exhook_demo_svr"
+test = "emqx_exhook_demo_svr.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_exhook_demo_svr",
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_exhook_metrics_SUITE"
+test = "emqx_exhook_metrics_SUITE.erl"
+
+

@@ -1,0 +1,126 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_authz_SUITE"
+test = "emqx_authz_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers"
+]
+name = "emqx_authz_api_cache_SUITE"
+test = "emqx_authz_api_cache_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers"
+]
+name = "emqx_authz_api_mnesia_SUITE"
+test = "emqx_authz_api_mnesia_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers"
+]
+name = "emqx_authz_api_settings_SUITE"
+test = "emqx_authz_api_settings_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//3rdparty/rebar3/default/lib/meck",
+  "//apps/emqx/_build/default/plugins/jsx/src",
+  "//apps/emqx/src"
+]
+name = "emqx_authz_api_sources_SUITE"
+test = "emqx_authz_api_sources_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/meck"
+]
+name = "emqx_authz_file_SUITE"
+test = "emqx_authz_file_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authz_http_SUITE"
+test = "emqx_authz_http_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authz_http_test_server"
+test = "emqx_authz_http_test_server.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authz_jwt_SUITE"
+test = "emqx_authz_jwt_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_authz_test_lib"
+]
+name = "emqx_authz_mnesia_SUITE"
+test = "emqx_authz_mnesia_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_authz_test_lib"
+]
+name = "emqx_authz_mongodb_SUITE"
+test = "emqx_authz_mongodb_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_authz_test_lib"
+]
+name = "emqx_authz_mysql_SUITE"
+test = "emqx_authz_mysql_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_authz_test_lib"
+]
+name = "emqx_authz_postgresql_SUITE"
+test = "emqx_authz_postgresql_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authz_redis_SUITE"
+test = "emqx_authz_redis_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_authz_rule_SUITE"
+test = "emqx_authz_rule_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_authz_test_lib"
+test = "emqx_authz_test_lib.erl"
+
+

@@ -1,0 +1,34 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/meck",
+  "//apps/emqx/_build/default/lib/ekka/src",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx_conf/src"
+]
+name = "emqx_cluster_rpc_SUITE"
+test = "emqx_cluster_rpc_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx/_build/default/lib/snabbkaffe/src"
+]
+name = "emqx_conf_app_SUITE"
+test = "emqx_conf_app_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_conf_schema_tests"
+test = "emqx_conf_schema_tests.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//apps/emqx_machine/src"
+]
+name = "emqx_global_gc_SUITE"
+test = "emqx_global_gc_SUITE.erl"
+
+

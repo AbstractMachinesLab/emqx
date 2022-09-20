@@ -1,0 +1,23 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//apps/emqx_machine/src"
+]
+name = "emqx_machine_SUITE"
+test = "emqx_machine_SUITE.erl"
+
+
+[[erlang_test]]
+deps = []
+name = "emqx_machine_tests"
+test = "emqx_machine_tests.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers"
+]
+name = "emqx_restricted_shell_SUITE"
+test = "emqx_restricted_shell_SUITE.erl"
+
+

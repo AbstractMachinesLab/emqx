@@ -1,0 +1,19 @@
+[[erlang_library]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_http_lib",
+  "//3rdparty/rebar3/default/lib/minirest",
+  "//apps/emqx/_build/default/lib/cowboy/src",
+  "//apps/emqx/_build/default/lib/ekka/src",
+  "//apps/emqx/_build/default/lib/hocon/src",
+  "//apps/emqx/_build/default/lib/lc/src",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx/src",
+  "//apps/emqx/src/emqx_trace",
+  "//apps/emqx/src/proto",
+  "//apps/emqx_dashboard/src",
+  "//apps/emqx_management/src/proto",
+  "//apps/emqx_plugins/src"
+]
+name = "src"
+
+

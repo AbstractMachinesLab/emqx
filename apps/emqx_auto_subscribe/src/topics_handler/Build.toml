@@ -1,0 +1,7 @@
+[[erlang_library]]
+deps = [
+  "//apps/emqx_auto_subscribe/src"
+]
+name = "topics_handler"
+
+

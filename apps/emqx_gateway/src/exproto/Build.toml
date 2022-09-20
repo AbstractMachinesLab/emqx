@@ -1,0 +1,10 @@
+[[erlang_library]]
+deps = [
+  "//3rdparty/rebar3/default/lib/grpc_client_sup",
+  "//apps/emqx/_build/default/lib/gproc/src",
+  "//apps/emqx/src",
+  "//apps/emqx_gateway/src"
+]
+name = "exproto"
+
+

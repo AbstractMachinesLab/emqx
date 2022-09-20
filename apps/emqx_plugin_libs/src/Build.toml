@@ -1,0 +1,9 @@
+[[erlang_library]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_http_lib",
+  "//apps/emqx/src",
+  "//apps/emqx_rule_engine/src"
+]
+name = "src"
+
+

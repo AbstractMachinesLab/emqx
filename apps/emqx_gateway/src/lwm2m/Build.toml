@@ -1,0 +1,9 @@
+[[erlang_library]]
+deps = [
+  "//apps/emqx/src",
+  "//apps/emqx_gateway/src",
+  "//apps/emqx_gateway/src/coap"
+]
+name = "lwm2m"
+
+

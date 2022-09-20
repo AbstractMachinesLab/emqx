@@ -1,0 +1,156 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_alarms_SUITE"
+test = "emqx_mgmt_api_alarms_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_app_SUITE"
+test = "emqx_mgmt_api_app_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_banned_SUITE"
+test = "emqx_mgmt_api_banned_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_clients_SUITE"
+test = "emqx_mgmt_api_clients_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_configs_SUITE"
+test = "emqx_mgmt_api_configs_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//apps/emqx/src",
+  "//apps/emqx_conf/src"
+]
+name = "emqx_mgmt_api_listeners_SUITE"
+test = "emqx_mgmt_api_listeners_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_metrics_SUITE"
+test = "emqx_mgmt_api_metrics_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//apps/emqx/src/config"
+]
+name = "emqx_mgmt_api_nodes_SUITE"
+test = "emqx_mgmt_api_nodes_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//apps/emqx_plugins/src"
+]
+name = "emqx_mgmt_api_plugins_SUITE"
+test = "emqx_mgmt_api_plugins_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_publish_SUITE"
+test = "emqx_mgmt_api_publish_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_stats_SUITE"
+test = "emqx_mgmt_api_stats_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_status_SUITE"
+test = "emqx_mgmt_api_status_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_subscription_SUITE"
+test = "emqx_mgmt_api_subscription_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_sys_SUITE"
+test = "emqx_mgmt_api_sys_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx/src"
+]
+name = "emqx_mgmt_api_test_util"
+test = "emqx_mgmt_api_test_util.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util"
+]
+name = "emqx_mgmt_api_topics_SUITE"
+test = "emqx_mgmt_api_topics_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_mgmt_api_test_util",
+  "//apps/emqx/src/emqx_trace"
+]
+name = "emqx_mgmt_api_trace_SUITE"
+test = "emqx_mgmt_api_trace_SUITE.erl"
+
+
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_common_test_helpers",
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers",
+  "//apps/emqx/_build/default/lib/mria/src",
+  "//apps/emqx/src"
+]
+name = "emqx_mgmt_cli_SUITE"
+test = "emqx_mgmt_cli_SUITE.erl"
+
+

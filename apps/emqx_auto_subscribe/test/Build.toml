@@ -1,0 +1,8 @@
+[[erlang_test]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_dashboard_api_test_helpers"
+]
+name = "emqx_auto_subscribe_SUITE"
+test = "emqx_auto_subscribe_SUITE.erl"
+
+

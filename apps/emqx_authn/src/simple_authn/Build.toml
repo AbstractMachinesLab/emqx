@@ -1,0 +1,13 @@
+[[erlang_library]]
+deps = [
+  "//3rdparty/rebar3/default/lib/emqx_http_lib",
+  "//3rdparty/rebar3/default/lib/jose_jwk",
+  "//apps/emqx/_build/default/lib/hocon/src",
+  "//apps/emqx/src",
+  "//apps/emqx_authn/src",
+  "//apps/emqx_management/src",
+  "//apps/emqx_plugin_libs/src"
+]
+name = "simple_authn"
+
+
