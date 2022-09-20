@@ -7,7 +7,8 @@ ignore_patterns = [
 ]
 
 [aliases]
-erl = "https://pkgs.warp.build/toolchains/erlang"
+erlang = "https://pkgs.warp.build/toolchains/erlang"
+rebar3 = "https://pkgs.warp.build/toolchains/rebar3"
 elixir = "https://pkgs.warp.build/toolchains/elixir"
 
 [toolchains.elixir]
